@@ -10,8 +10,6 @@ int main()
 
   printf("Enter number of elements in the array, array elements and the key");
   scanf("%d", &n);
-
-  
   for (c = 0; c < n; c++)
     scanf("%d", &array[c]);
 
@@ -28,7 +26,7 @@ int main()
     }
   }
   if (c == n)
-    printf("%d is not present in the array", );
+    printf("%d is not present in the array",search );
 
   return 0;
 }
